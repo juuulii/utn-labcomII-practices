@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>País</th>
+                <th>Capital</th>
+                <th>Habitantes</th>
+                <th>Idioma</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Argentina</td>
+                <td>Buenos Aires</td>
+                <td>46.044.703</td>
+                <td>Español</td>
+            </tr>
+            <tr>
+                <td>Francia</td>
+                <td>Paris</td>
+                <td>66.280.851</td>
+                <td>Francés</td>
+            </tr>
+            <tr>
+                <td>Japón</td>
+                <td>Tokio</td>
+                <td>126.529.000</td>
+                <td>Japonés</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <table>
+        <caption>Tabla Compleja</caption>
+        <thead>
+          <tr>
+            <th rowspan="2">Día</th>
+            <th colspan="2">Materias</th>
+            <th>Aulas</th>
+            <th>Cantidad de horas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td rowspan="2" colspan="2"><a href="https://www.youtube.com/user/julioprofe">Matemática</a></td>
+            <td>101</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>102</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td> <a href="https://www.youtube.com/watch?v=xJxr1piIfSU">Programación</a></td>
+            <td><a href="https://www.youtube.com/watch?v=iCjbet4m9iM">Inglés</a></td>
+            <td rowspan="2">103</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td><a href="https://www.youtube.com/watch?v=PHS7z0vCPN0">Laboratorio de computación</a></td>
+            <td><a href="https://www.youtube.com/watch?v=oLsVrshvOaI">Metodología de la investigación</a></td>
+            <td>2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total de horas</td>
+            <td>12</td>
+          </tr>
+        </tfoot>
+      </table>
+</body>
+</html>
+
